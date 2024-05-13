@@ -21,7 +21,7 @@ public class Methods{
   public static void main(String[]args)
   {
     StaticMethod();
-    Methods T = new Methods();
+    Methods T = new Methods();   //object= variable  of class
     T.PublicMethod();
 
   }
