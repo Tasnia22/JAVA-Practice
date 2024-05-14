@@ -1,0 +1,32 @@
+
+package TasniaRahman;
+class Vehicle{
+}
+    class Bike extends Vehicle{
+        void engine()
+        {
+            System.out.println("This is Bike Engine");
+        }
+    }
+    class car extends Vehicle
+    {
+        void engine()
+        {
+            System.out.println("THis is car Engine");
+        }
+    }
+    
+
+
+
+public class MethodOveriding {
+    
+    
+    public static void main(String[] args)
+    {
+        Bike Honda = new Bike();
+        car Benz = new car();
+        Benz.engine();
+        Honda.engine();
+    }
+}
